@@ -1,0 +1,30 @@
+form {
+    padding-inline: 40px;
+    width: 100%;
+}
+
+.comment__form__textarea {
+    min-width: 100%;
+    height: 80px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    border: 1px solid rgb(107, 114, 12);
+}
+
+.comment__form__button {
+    font-size: 16px;
+    padding: 8px 16px;
+    background: rgb(59, 130, 246);
+    border-radius: 8px;
+    color: white;
+}
+  
+.comment__form__button:hover:enabled {
+    cursor: pointer;
+    background: rgb(37, 99, 235);
+}
+  
+.comment__form__button:disabled {
+    opacity: 0.7;
+    cursor: default;
+}
