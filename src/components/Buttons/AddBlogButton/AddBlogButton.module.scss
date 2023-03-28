@@ -1,0 +1,13 @@
+.addPostBtn {
+    position: absolute;
+    right: 100px;
+    top: 10px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(7, 197, 7);
+    cursor: pointer;
+  
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
